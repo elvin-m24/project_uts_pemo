@@ -47,7 +47,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                       ),
                       const SizedBox(height: 4),
                       const Text(
-                        '@elvintama',
+                        '@elvinpratama',
                         style: TextStyle(
                           color: Colors.white70,
                           fontSize: 14,
@@ -57,21 +57,6 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   ),
                 ],
               ),
-            ),
-            ListTile(
-              leading: const Icon(
-                Icons.settings,
-                color: Colors.white,
-              ),
-              title: const Text(
-                'Settings',
-                style: TextStyle(
-                  color: Colors.white,
-                ),
-              ),
-              onTap: () {
-                // Navigate to settings screen
-              },
             ),
             const Divider(color: Colors.white54),
             ListTile(
